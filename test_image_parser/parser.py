@@ -2,9 +2,9 @@ import re
 from cloud_connection import get_words_from_image, get_from_test_data
 
 
-#words = get_words_from_image()
-words = get_from_test_data()
-
+words = get_words_from_image()
+#words = get_from_test_data()
+print(words)
 
 def get_price(words):
 	key_words = ["итог", "итого", "сумма", "цена", "всего", "оплата", "оплате", "total", "summ"]

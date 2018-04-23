@@ -12,7 +12,7 @@ def get_words_from_image():
 	# The name of the image file to annotate
 	file_name = os.path.join(
 		os.path.dirname(__file__),
-		'../img_tests/receipt4.jpg')
+		'../img_tests/receipt9.jpg')
 
 	# Loads the image into memory
 	with io.open(file_name, 'rb') as image_file:
